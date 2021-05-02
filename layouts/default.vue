@@ -16,7 +16,7 @@ body * {
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1352px;
   margin: auto;
   padding: 0px 26px;
 }
@@ -34,7 +34,7 @@ body * {
 }
 
 .popular {
-  padding-top: 8vh;
+  padding-top: 10vh;
 }
 
 progress.amplitude-song-played-progress:not([value]) {
@@ -134,7 +134,7 @@ progress[value]::-webkit-progress-value {
   display: block;
   background: rgb(255 255 255 / 5%);
   font-size: 13px;
-  padding: 7px;
+  padding: 6px 7px;
   margin-right: 10px;
   color: rgb(255 255 255 / 68%);
   border-radius: 10px;
@@ -209,6 +209,7 @@ a.buy:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 25px;
 }
 
 .control-container {
