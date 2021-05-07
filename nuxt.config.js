@@ -5,7 +5,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "beatstore",
+    title: "Hun Eria - Beatstore, Beat Satın Al",
     htmlAttrs: {
       lang: "en"
     },
@@ -15,7 +15,7 @@ export default {
       { hid: "description", name: "description", content: "" }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      { rel: "icon", type: "image/x-icon", href: "/favicon.png" },
       {
         rel: "stylesheet",
         href:

@@ -1,6 +1,229 @@
 <template>
-  <div>
-    <Nuxt />
+  <div class="container">
+    <div class="logo">
+      <img src="~/assets/logo.png" />
+    </div>
+    <div class="popular">
+      <h2 class="title">Öne Çıkan:</h2>
+    </div>
+
+    <div class="beats">
+      <Track
+        :id="1"
+        title="Costa"
+        price="100"
+        :tags="['120bpm', 'F MINOR']"
+        cover-url="1.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="2"
+        title="Shine"
+        price="100"
+        :tags="['150bpm', 'D MINOR']"
+        cover-url="2.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="3"
+        title="Butterfly"
+        price="75"
+        :tags="['120bpm', 'C# MINOR']"
+        cover-url="3.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="4"
+        title="Tenet"
+        price="75"
+        :tags="['138bpm', 'E MAJOR']"
+        cover-url="4.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="5"
+        title="Zimms"
+        price="75"
+        :tags="['110bpm', 'E MINOR']"
+        cover-url="5.jpg"
+        buy-url="#"
+      />
+    </div>
+    <div class="popular">
+      <h2 class="title">Beatler:</h2>
+    </div>
+
+    <div class="beats">
+      <Track
+        :id="6"
+        title="No Stop"
+        price="100"
+        :tags="['146bpm', 'D MINOR']"
+        cover-url="6.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="7"
+        title="Fresh"
+        price="75"
+        :tags="['150bpm', 'E MINOR']"
+        cover-url="7.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="8"
+        title="ILL Mind"
+        price="75"
+        :tags="['140bpm', 'D MINOR']"
+        cover-url="8.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="9"
+        title="Lighter"
+        price="75"
+        :tags="['140bpm', 'D MINOR']"
+        cover-url="4.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="10"
+        title="Orchestra"
+        price="75"
+        :tags="['130bpm', 'C MINOR']"
+        cover-url="10.jpg"
+        buy-url="#"
+      />
+    </div>
+    <div class="beats">
+      <Track
+        :id="11"
+        title="Glory"
+        price="100"
+        :tags="['94bpm', 'E MINOR']"
+        cover-url="11.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="12"
+        title="Neon"
+        price="75"
+        :tags="['130bpm', 'A# MINOR']"
+        cover-url="12.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="13"
+        title="Watcher"
+        price="75"
+        :tags="['140bpm', 'E MINOR']"
+        cover-url="13.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="14"
+        title="Late"
+        price="75"
+        :tags="['140bpm', 'E MINOR']"
+        cover-url="14.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="15"
+        title="Scream"
+        price="75"
+        :tags="['150bpm', 'F MINOR']"
+        cover-url="15.jpg"
+        buy-url="#"
+      />
+    </div>
+    <div class="beats">
+      <Track
+        :id="16"
+        title="Gone"
+        price="100"
+        :tags="['128bpm', 'B MINOR']"
+        cover-url="16.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="17"
+        title="Fogger"
+        price="75"
+        :tags="['140bpm', 'C MINOR']"
+        cover-url="17.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="18"
+        title="Call"
+        price="75"
+        :tags="['124bpm', 'G# MINOR']"
+        cover-url="18.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="19"
+        title="Psy"
+        price="75"
+        :tags="['150bpm', 'A MINOR']"
+        cover-url="19.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="20"
+        title="Swag"
+        price="75"
+        :tags="['120bpm', 'G MINOR']"
+        cover-url="20.jpg"
+        buy-url="#"
+      />
+    </div>
+    <div class="popular">
+      <h2 class="title">Diğer:</h2>
+    </div>
+    <div class="beats">
+      <Track
+        :id="21"
+        title="Revenge"
+        price="100"
+        :tags="['130bpm', 'B MINOR']"
+        cover-url="21.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="22"
+        title="Clouds"
+        price="75"
+        :tags="['120bpm', 'E MINOR']"
+        cover-url="22.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="23"
+        title="Switch"
+        price="75"
+        :tags="['100bpm', 'C# MINOR']"
+        cover-url="23.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="24"
+        title="Synthetic"
+        price="75"
+        :tags="['110bpm', 'G MINOR']"
+        cover-url="24.jpg"
+        buy-url="#"
+      />
+      <Track
+        :id="25"
+        title="Agre"
+        price="75"
+        :tags="['135bpm', 'A MINOR']"
+        cover-url="25.jpg"
+        buy-url="#"
+      />
+    </div>
   </div>
 </template>
 
